@@ -189,7 +189,31 @@ const translations = {
     nl_desc: "Jiunge na jarida letu kupata habari za programu, matukio na fursa za kushiriki.",
     nl_placeholder: "Barua pepe yako",
     nl_button: "Jiunge",
-    nl_success: "Asante! Barua pepe yako ya utumaji imefunguliwa &mdash; tuma ili kukamilisha kujiunga."
+    nl_success: "Asante! Barua pepe yako ya utumaji imefunguliwa &mdash; tuma ili kukamilisha kujiunga.",
+    nav_apply: "Omba",
+    apply_hero_eyebrow: "Omba",
+    apply_hero_title: "Jiunge na kazi ya kurejesha maisha.",
+    apply_hero_sub: "Tuma ombi lako kama mshirika, mjitolea, au kujiunga na mojawapo ya programu zetu. Timu yetu itawasiliana nawe.",
+    apply_eyebrow: "Fomu ya Maombi",
+    apply_h2: "Tuambie unahitaji nini.",
+    apply_p: "Jaza fomu hapa chini. Sehemu zenye alama <span class=\"req\" style=\"color:var(--dawn-deep);\">*</span> ni za lazima.",
+    apply_field_type: "Aina ya Ombi",
+    apply_type_placeholder: "-- Chagua --",
+    apply_type_partner: "Ushirikiano (Partnership)",
+    apply_type_volunteer: "Kujitolea (Volunteer)",
+    apply_type_program: "Kujiunga na Programu",
+    apply_type_other: "Nyingine",
+    apply_field_name: "Jina Kamili",
+    apply_field_org: "Jina la Taasisi (kama lipo)",
+    apply_field_email: "Barua Pepe",
+    apply_field_phone: "Namba ya Simu",
+    apply_field_region: "Mkoa Unaoishi",
+    apply_region_other: "Mkoa Mwingine",
+    apply_field_message: "Maelezo ya Ombi Lako",
+    apply_msg_placeholder: "Tueleze zaidi kuhusu ombi lako...",
+    apply_submit: "Tuma Ombi",
+    apply_note: "Maombi yanapokelewa moja kwa moja na Sekretarieti ya TTF. Tutawasiliana nawe ndani ya siku 3-5 za kazi.",
+    apply_sent_banner: "Asante! Ombi lako limepokelewa. Tutawasiliana nawe hivi karibuni."
   },
   en: {
     brand_sub: "Foundation",
@@ -381,7 +405,31 @@ const translations = {
     nl_desc: "Join our newsletter for program updates, events, and ways to get involved.",
     nl_placeholder: "Your email address",
     nl_button: "Subscribe",
-    nl_success: "Thank you! Your email app has opened &mdash; send it to complete your signup."
+    nl_success: "Thank you! Your email app has opened &mdash; send it to complete your signup.",
+    nav_apply: "Apply",
+    apply_hero_eyebrow: "Apply",
+    apply_hero_title: "Join the work of restoring lives.",
+    apply_hero_sub: "Submit your application as a partner, volunteer, or to join one of our programs. Our team will get in touch with you.",
+    apply_eyebrow: "Application Form",
+    apply_h2: "Tell us what you need.",
+    apply_p: "Fill out the form below. Fields marked <span class=\"req\" style=\"color:var(--dawn-deep);\">*</span> are required.",
+    apply_field_type: "Application Type",
+    apply_type_placeholder: "-- Select --",
+    apply_type_partner: "Partnership",
+    apply_type_volunteer: "Volunteer",
+    apply_type_program: "Join a Program",
+    apply_type_other: "Other",
+    apply_field_name: "Full Name",
+    apply_field_org: "Organization Name (if any)",
+    apply_field_email: "Email",
+    apply_field_phone: "Phone Number",
+    apply_field_region: "Region You Live In",
+    apply_region_other: "Other Region",
+    apply_field_message: "Tell Us About Your Application",
+    apply_msg_placeholder: "Tell us more about your application...",
+    apply_submit: "Submit Application",
+    apply_note: "Applications go directly to the TTF Secretariat. We'll be in touch within 3-5 business days.",
+    apply_sent_banner: "Thank you! Your application has been received. We'll be in touch soon."
   },
   fr: {
     brand_sub: "Fondation",
@@ -573,7 +621,31 @@ const translations = {
     nl_desc: "Rejoignez notre bulletin pour recevoir les actualit&eacute;s des programmes, &eacute;v&eacute;nements et occasions de vous impliquer.",
     nl_placeholder: "Votre adresse e-mail",
     nl_button: "S'abonner",
-    nl_success: "Merci ! Votre application e-mail s'est ouverte &mdash; envoyez-la pour finaliser votre inscription."
+    nl_success: "Merci ! Votre application e-mail s'est ouverte &mdash; envoyez-la pour finaliser votre inscription.",
+    nav_apply: "Postuler",
+    apply_hero_eyebrow: "Postuler",
+    apply_hero_title: "Rejoignez le travail de restauration des vies.",
+    apply_hero_sub: "Soumettez votre candidature en tant que partenaire, b&eacute;n&eacute;vole, ou pour rejoindre l'un de nos programmes. Notre &eacute;quipe vous contactera.",
+    apply_eyebrow: "Formulaire de Candidature",
+    apply_h2: "Dites-nous ce dont vous avez besoin.",
+    apply_p: "Remplissez le formulaire ci-dessous. Les champs marqu&eacute;s <span class=\"req\" style=\"color:var(--dawn-deep);\">*</span> sont obligatoires.",
+    apply_field_type: "Type de Demande",
+    apply_type_placeholder: "-- S&eacute;lectionner --",
+    apply_type_partner: "Partenariat",
+    apply_type_volunteer: "B&eacute;n&eacute;volat",
+    apply_type_program: "Rejoindre un Programme",
+    apply_type_other: "Autre",
+    apply_field_name: "Nom Complet",
+    apply_field_org: "Nom de l'Organisation (le cas &eacute;ch&eacute;ant)",
+    apply_field_email: "E-mail",
+    apply_field_phone: "Num&eacute;ro de T&eacute;l&eacute;phone",
+    apply_field_region: "R&eacute;gion de R&eacute;sidence",
+    apply_region_other: "Autre R&eacute;gion",
+    apply_field_message: "Parlez-nous de Votre Demande",
+    apply_msg_placeholder: "Donnez-nous plus de d&eacute;tails sur votre demande...",
+    apply_submit: "Soumettre la Demande",
+    apply_note: "Les candidatures sont envoy&eacute;es directement au Secr&eacute;tariat de TTF. Nous vous contacterons sous 3 &agrave; 5 jours ouvrables.",
+    apply_sent_banner: "Merci ! Votre demande a &eacute;t&eacute; re&ccedil;ue. Nous vous contacterons bient&ocirc;t."
   }
 };
 
@@ -679,6 +751,20 @@ document.addEventListener('DOMContentLoaded', () => {
       if(nlMsg) nlMsg.classList.add('show');
       nlForm.reset();
     });
+  }
+
+  // Application form: show confirmation if redirected back after a successful submit
+  if(window.location.search.includes('sent=true')){
+    const form = document.getElementById('applyForm');
+    if(form){
+      const banner = document.createElement('div');
+      banner.className = 'nl-msg show';
+      banner.style.marginBottom = '24px';
+      banner.style.fontSize = '14px';
+      const dict = translations[getStoredLang()] || translations.sw;
+      banner.textContent = dict.apply_sent_banner || 'Asante! Ombi lako limepokelewa.';
+      form.parentNode.insertBefore(banner, form);
+    }
   }
 
   applyLang(getStoredLang());
