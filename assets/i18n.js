@@ -4,6 +4,7 @@ const translations = {
     nav_home: "Nyumbani",
     nav_about: "Kuhusu Sisi", nav_programs: "Programu", nav_regions: "Maeneo",
     nav_partners: "Ushirikiano", nav_governance: "Uongozi", nav_contact: "Wasiliana Nasi", nav_donate: "Changia",
+    nav_more: "Zaidi", nav_news: "Habari", nav_gallery: "Picha", nav_careers: "Kazi",
 
     hero_eyebrow: "Taasisi Isiyo ya Kiserikali &mdash; Tanzania Bara",
     hero_h1: "Kila mtu ana uwezo wa <em>kuanza upya.</em>",
@@ -130,6 +131,7 @@ const translations = {
     gov_note_text: "Malipo makubwa yanahitaji saini mbili kati ya wanne &mdash; Mkurugenzi Mtendaji na Mjumbe wa Bodi (Block A), pamoja na Meneja (Block B). Ukaguzi wa nje wa hesabu unafanyika kila mwaka na kuwasilishwa kwa Bodi na Mkutano Mkuu kabla ya kupitishwa.",
     gov_team_caption: "Sehemu ya timu ya uongozi ya Tuishi Tena Foundation",
     leader2_caption: "Uongozi wa Tuishi Tena Foundation",
+    leader3_caption: "Uongozi wa Tuishi Tena Foundation",
     doc_list_title: "Nyaraka Rasmi",
     doc1_name: "Katiba ya Tuishi Tena Foundation",
     doc2_name: "Wasifu wa Taasisi (Organization Profile)",
@@ -213,13 +215,60 @@ const translations = {
     apply_msg_placeholder: "Tueleze zaidi kuhusu ombi lako...",
     apply_submit: "Tuma Ombi",
     apply_note: "Maombi yanapokelewa moja kwa moja na Sekretarieti ya TTF. Tutawasiliana nawe ndani ya siku 3-5 za kazi.",
-    apply_sent_banner: "Asante! Ombi lako limepokelewa. Tutawasiliana nawe hivi karibuni."
+    apply_sent_banner: "Asante! Ombi lako limepokelewa. Tutawasiliana nawe hivi karibuni.",
+    skip_link: "Nenda kwenye maudhui makuu",
+    cookie_text: "Tovuti hii inatumia vidakuzi (cookies) kuboresha uzoefu wako na kuelewa jinsi wageni wanavyotumia tovuti. Unaweza kukubali au kukataa.",
+    cookie_accept: "Kubali",
+    cookie_decline: "Kataa",
+    maps_eyebrow: "Ramani",
+    maps_h3: "Tupate kwenye ramani.",
+    maps_dar_label: "Ofisi na shughuli za mjini",
+    maps_pwani_label: "Shughuli za ukanda wa pwani",
+    maps_morogoro_label: "Shughuli za kilimo na vijijini",
+    gallery_hero_eyebrow: "Picha",
+    gallery_hero_title: "Kazi yetu, ikionekana.",
+    gallery_hero_sub: "Picha za viongozi, timu na maeneo tunayofanyia kazi. Bofya picha yoyote kuiona kwa ukubwa zaidi.",
+    gallery_eyebrow: "Matukio na Uongozi",
+    gallery_h2: "Nyuso na maeneo nyuma ya kazi yetu.",
+    gallery_cap_team: "Timu ya Uongozi",
+    gallery_cap_leader: "Uongozi wa TTF",
+    gallery_cap_partnership: "Ushirikiano na Wadau",
+    gallery_video_eyebrow: "Video",
+    gallery_video_note: "Video za shughuli zetu zitaongezwa hapa hivi karibuni. Ukiwa na video za matukio ya TTF, tuma kwetu ili tuweze kuzichapisha.",
+    news_hero_eyebrow: "Habari",
+    news_hero_title: "Habari na matukio kutoka TTF.",
+    news_hero_sub: "Taarifa za hivi karibuni kuhusu programu, matukio na maendeleo ya Tuishi Tena Foundation.",
+    news_eyebrow: "Makala",
+    news_h2: "Yanayoendelea TTF.",
+    news_empty_note: "Makala mpya zitachapishwa hapa hivi karibuni. Rejea tena baadaye, au jiunge na jarida letu chini ya ukurasa ili upate taarifa moja kwa moja.",
+    news_post1_tag: "Tangazo",
+    news_post1_title: "Tuishi Tena Foundation Yazindua Tovuti Rasmi",
+    news_post1_date: "Agosti 2026",
+    news_post1_excerpt: "Tunafuraha kuzindua tovuti yetu rasmi, hatua muhimu katika kueneza dhamira yetu ya kurejesha matumaini kwa wafungwa, waliowahi kufungwa na familia zao.",
+    news_post2_tag: "Mpango",
+    news_post2_title: "Awamu ya Kwanza Yaanza Rasmi Dar es Salaam, Pwani na Morogoro",
+    news_post2_date: "2026",
+    news_post2_excerpt: "TTF inaanza kazi zake za msingi za urejeshaji na uwezeshaji katika mikoa mitatu, ikiwa ni awamu ya kwanza ya mpango wa kuenea kitaifa.",
+    careers_hero_eyebrow: "Kazi",
+    careers_hero_title: "Jiunge na timu ya TTF.",
+    careers_hero_sub: "Hatuna nafasi maalum za kazi kwa sasa, lakini tunapokea CV kwa ajili ya fursa zijazo.",
+    careers_eyebrow: "Nafasi za Kazi",
+    careers_h2: "Hakuna nafasi wazi kwa sasa.",
+    careers_p: "Tuishi Tena Foundation inakua kila mwaka. Ingawa hatuna nafasi maalum za kazi kwa sasa, tunakaribisha CV kutoka kwa watu wenye ujuzi katika marekebisho, ushauri nasaha, uwezeshaji wa kiuchumi, fedha na uongozi wa mradi kwa ajili ya fursa zijazo.",
+    careers_roles_h3: "Nyadhifa Tunazotarajia Kuhitaji",
+    careers_role1: "Mkurugenzi Mtendaji (Executive Director)",
+    careers_role2: "Meneja wa Fedha (Finance Manager)",
+    careers_role3: "Meneja wa Programu (Program Manager)",
+    careers_role4: "Afisa Ushauri Nasaha (Counselling Officer)",
+    careers_cta_btn: "Tuma CV Yako",
+    careers_cta_note: "Utaelekezwa kwenye fomu yetu ya maombi. Chagua \"Nyingine\" kama aina ya ombi na eleza nafasi unayopendelea."
   },
   en: {
     brand_sub: "Foundation",
     nav_home: "Home",
     nav_about: "About Us", nav_programs: "Programs", nav_regions: "Regions",
     nav_partners: "Partnerships", nav_governance: "Governance", nav_contact: "Contact Us", nav_donate: "Donate",
+    nav_more: "More", nav_news: "News", nav_gallery: "Gallery", nav_careers: "Careers",
 
     hero_eyebrow: "A Non-Governmental Organization &mdash; Mainland Tanzania",
     hero_h1: "Everyone has the power to <em>begin again.</em>",
@@ -346,6 +395,7 @@ const translations = {
     gov_note_text: "Major payments require two of four signatories &mdash; the Executive Director and a Board member (Block A), together with a Manager (Block B). An external audit is conducted annually and presented to the Board and Annual General Meeting before approval.",
     gov_team_caption: "Members of the Tuishi Tena Foundation leadership team",
     leader2_caption: "Leadership of Tuishi Tena Foundation",
+    leader3_caption: "Leadership of Tuishi Tena Foundation",
     doc_list_title: "Official Documents",
     doc1_name: "Tuishi Tena Foundation Constitution",
     doc2_name: "Organization Profile",
@@ -429,13 +479,60 @@ const translations = {
     apply_msg_placeholder: "Tell us more about your application...",
     apply_submit: "Submit Application",
     apply_note: "Applications go directly to the TTF Secretariat. We'll be in touch within 3-5 business days.",
-    apply_sent_banner: "Thank you! Your application has been received. We'll be in touch soon."
+    apply_sent_banner: "Thank you! Your application has been received. We'll be in touch soon.",
+    skip_link: "Skip to main content",
+    cookie_text: "This site uses cookies to improve your experience and understand how visitors use the site. You can accept or decline.",
+    cookie_accept: "Accept",
+    cookie_decline: "Decline",
+    maps_eyebrow: "Map",
+    maps_h3: "Find us on the map.",
+    maps_dar_label: "Office and urban activities",
+    maps_pwani_label: "Coastal region activities",
+    maps_morogoro_label: "Agricultural and rural activities",
+    gallery_hero_eyebrow: "Gallery",
+    gallery_hero_title: "Our work, made visible.",
+    gallery_hero_sub: "Photos of our leaders, team, and the areas where we work. Click any photo to view it larger.",
+    gallery_eyebrow: "Events & Leadership",
+    gallery_h2: "The faces and places behind our work.",
+    gallery_cap_team: "Leadership Team",
+    gallery_cap_leader: "TTF Leadership",
+    gallery_cap_partnership: "Partnership & Collaboration",
+    gallery_video_eyebrow: "Video",
+    gallery_video_note: "Videos of our activities will be added here soon. If you have footage from TTF events, send it to us and we'll feature it.",
+    news_hero_eyebrow: "News",
+    news_hero_title: "News and updates from TTF.",
+    news_hero_sub: "The latest on our programs, events, and progress at Tuishi Tena Foundation.",
+    news_eyebrow: "Articles",
+    news_h2: "What's happening at TTF.",
+    news_empty_note: "New articles will be published here soon. Check back later, or join our newsletter below to get updates directly.",
+    news_post1_tag: "Announcement",
+    news_post1_title: "Tuishi Tena Foundation Launches Official Website",
+    news_post1_date: "August 2026",
+    news_post1_excerpt: "We're excited to launch our official website, an important step in spreading our mission of restoring hope to prisoners, ex-prisoners, and their families.",
+    news_post2_tag: "Program",
+    news_post2_title: "Phase One Officially Begins in Dar es Salaam, Pwani and Morogoro",
+    news_post2_date: "2026",
+    news_post2_excerpt: "TTF begins its core rehabilitation and empowerment work across three regions, marking phase one of our national expansion plan.",
+    careers_hero_eyebrow: "Careers",
+    careers_hero_title: "Join the TTF team.",
+    careers_hero_sub: "We have no specific openings right now, but we welcome CVs for future opportunities.",
+    careers_eyebrow: "Job Openings",
+    careers_h2: "No open positions at this time.",
+    careers_p: "Tuishi Tena Foundation is growing every year. While we don't have specific openings right now, we welcome CVs from people skilled in rehabilitation, counselling, economic empowerment, finance, and program leadership for future opportunities.",
+    careers_roles_h3: "Roles We Expect to Need",
+    careers_role1: "Executive Director",
+    careers_role2: "Finance Manager",
+    careers_role3: "Program Manager",
+    careers_role4: "Counselling Officer",
+    careers_cta_btn: "Submit Your CV",
+    careers_cta_note: "You'll be directed to our application form. Select \"Other\" as the application type and describe the role you're interested in."
   },
   fr: {
     brand_sub: "Fondation",
     nav_home: "Accueil",
     nav_about: "À Propos", nav_programs: "Programmes", nav_regions: "Régions",
     nav_partners: "Partenariats", nav_governance: "Gouvernance", nav_contact: "Contactez-nous", nav_donate: "Faire un Don",
+    nav_more: "Plus", nav_news: "Actualit&eacute;s", nav_gallery: "Galerie", nav_careers: "Carri&egrave;res",
 
     hero_eyebrow: "Organisation Non Gouvernementale &mdash; Tanzanie Continentale",
     hero_h1: "Chacun a le pouvoir de <em>recommencer.</em>",
@@ -562,6 +659,7 @@ const translations = {
     gov_note_text: "Les paiements importants n&eacute;cessitent deux signatures sur quatre &mdash; le Directeur Ex&eacute;cutif et un membre du Conseil (Bloc A), ainsi qu'un Responsable (Bloc B). Un audit externe est r&eacute;alis&eacute; chaque ann&eacute;e et pr&eacute;sent&eacute; au Conseil et &agrave; l'Assembl&eacute;e G&eacute;n&eacute;rale avant approbation.",
     gov_team_caption: "Membres de l'&eacute;quipe dirigeante de Tuishi Tena Foundation",
     leader2_caption: "Direction de Tuishi Tena Foundation",
+    leader3_caption: "Direction de Tuishi Tena Foundation",
     doc_list_title: "Documents Officiels",
     doc1_name: "Constitution de Tuishi Tena Foundation",
     doc2_name: "Profil de l'Organisation",
@@ -645,7 +743,53 @@ const translations = {
     apply_msg_placeholder: "Donnez-nous plus de d&eacute;tails sur votre demande...",
     apply_submit: "Soumettre la Demande",
     apply_note: "Les candidatures sont envoy&eacute;es directement au Secr&eacute;tariat de TTF. Nous vous contacterons sous 3 &agrave; 5 jours ouvrables.",
-    apply_sent_banner: "Merci ! Votre demande a &eacute;t&eacute; re&ccedil;ue. Nous vous contacterons bient&ocirc;t."
+    apply_sent_banner: "Merci ! Votre demande a &eacute;t&eacute; re&ccedil;ue. Nous vous contacterons bient&ocirc;t.",
+    skip_link: "Aller au contenu principal",
+    cookie_text: "Ce site utilise des cookies pour am&eacute;liorer votre exp&eacute;rience et comprendre comment les visiteurs utilisent le site. Vous pouvez accepter ou refuser.",
+    cookie_accept: "Accepter",
+    cookie_decline: "Refuser",
+    maps_eyebrow: "Carte",
+    maps_h3: "Retrouvez-nous sur la carte.",
+    maps_dar_label: "Bureau et activit&eacute;s urbaines",
+    maps_pwani_label: "Activit&eacute;s de la r&eacute;gion c&ocirc;ti&egrave;re",
+    maps_morogoro_label: "Activit&eacute;s agricoles et rurales",
+    gallery_hero_eyebrow: "Galerie",
+    gallery_hero_title: "Notre travail, rendu visible.",
+    gallery_hero_sub: "Photos de nos dirigeants, notre &eacute;quipe et les zones o&ugrave; nous travaillons. Cliquez sur une photo pour l'agrandir.",
+    gallery_eyebrow: "&Eacute;v&eacute;nements et Direction",
+    gallery_h2: "Les visages et lieux derri&egrave;re notre travail.",
+    gallery_cap_team: "&Eacute;quipe Dirigeante",
+    gallery_cap_leader: "Direction de TTF",
+    gallery_cap_partnership: "Partenariat et Collaboration",
+    gallery_video_eyebrow: "Vid&eacute;o",
+    gallery_video_note: "Des vid&eacute;os de nos activit&eacute;s seront ajout&eacute;es ici prochainement. Si vous avez des images d'&eacute;v&eacute;nements TTF, envoyez-les-nous.",
+    news_hero_eyebrow: "Actualit&eacute;s",
+    news_hero_title: "Actualit&eacute;s de TTF.",
+    news_hero_sub: "Les derni&egrave;res nouvelles sur nos programmes, &eacute;v&eacute;nements et progr&egrave;s &agrave; Tuishi Tena Foundation.",
+    news_eyebrow: "Articles",
+    news_h2: "Quoi de neuf &agrave; TTF.",
+    news_empty_note: "De nouveaux articles seront publi&eacute;s ici prochainement. Revenez plus tard, ou abonnez-vous &agrave; notre bulletin ci-dessous pour recevoir les mises &agrave; jour directement.",
+    news_post1_tag: "Annonce",
+    news_post1_title: "Tuishi Tena Foundation Lance Son Site Officiel",
+    news_post1_date: "Ao&ucirc;t 2026",
+    news_post1_excerpt: "Nous sommes heureux de lancer notre site officiel, une &eacute;tape importante pour diffuser notre mission de restaurer l'espoir des prisonniers, ex-d&eacute;tenus et de leurs familles.",
+    news_post2_tag: "Programme",
+    news_post2_title: "La Phase Un D&eacute;marre Officiellement &agrave; Dar es Salaam, Pwani et Morogoro",
+    news_post2_date: "2026",
+    news_post2_excerpt: "TTF d&eacute;marre son travail fondamental de r&eacute;habilitation et d'autonomisation dans trois r&eacute;gions, marquant la premi&egrave;re phase de notre plan d'expansion national.",
+    careers_hero_eyebrow: "Carri&egrave;res",
+    careers_hero_title: "Rejoignez l'&eacute;quipe TTF.",
+    careers_hero_sub: "Nous n'avons pas de poste sp&eacute;cifique &agrave; pourvoir actuellement, mais nous accueillons les CV pour de futures opportunit&eacute;s.",
+    careers_eyebrow: "Offres d'Emploi",
+    careers_h2: "Aucun poste ouvert actuellement.",
+    careers_p: "Tuishi Tena Foundation grandit chaque ann&eacute;e. Bien que nous n'ayons pas de poste sp&eacute;cifique actuellement, nous accueillons les CV de personnes qualifi&eacute;es en r&eacute;habilitation, counseling, autonomisation &eacute;conomique, finance et gestion de programme pour de futures opportunit&eacute;s.",
+    careers_roles_h3: "Postes que Nous Pr&eacute;voyons de Pourvoir",
+    careers_role1: "Directeur Ex&eacute;cutif",
+    careers_role2: "Responsable Financier",
+    careers_role3: "Responsable de Programme",
+    careers_role4: "Charg&eacute; de Counseling",
+    careers_cta_btn: "Soumettez Votre CV",
+    careers_cta_note: "Vous serez dirig&eacute; vers notre formulaire de candidature. S&eacute;lectionnez &laquo; Autre &raquo; comme type de demande et d&eacute;crivez le poste qui vous int&eacute;resse."
   }
 };
 
@@ -765,6 +909,72 @@ document.addEventListener('DOMContentLoaded', () => {
       banner.textContent = dict.apply_sent_banner || 'Asante! Ombi lako limepokelewa.';
       form.parentNode.insertBefore(banner, form);
     }
+  }
+
+  // Cookie consent banner
+  const cookieBanner = document.getElementById('cookieBanner');
+  const cookieAccept = document.getElementById('cookieAccept');
+  const cookieDecline = document.getElementById('cookieDecline');
+  function getCookieChoice(){
+    try{ return localStorage.getItem('ttf_cookie_consent'); }catch(e){ return null; }
+  }
+  function setCookieChoice(val){
+    try{ localStorage.setItem('ttf_cookie_consent', val); }catch(e){ /* ignore */ }
+  }
+  if(cookieBanner && !getCookieChoice()){
+    setTimeout(() => cookieBanner.classList.add('show'), 600);
+  }
+  if(cookieAccept){
+    cookieAccept.addEventListener('click', () => {
+      setCookieChoice('accepted');
+      cookieBanner.classList.remove('show');
+      // TODO: once Google Analytics is connected, initialize it here (only after consent)
+    });
+  }
+  if(cookieDecline){
+    cookieDecline.addEventListener('click', () => {
+      setCookieChoice('declined');
+      cookieBanner.classList.remove('show');
+    });
+  }
+
+  // Gallery lightbox
+  const lightbox = document.getElementById('lightbox');
+  const lightboxImg = document.getElementById('lightboxImg');
+  const lightboxClose = document.getElementById('lightboxClose');
+  document.querySelectorAll('.gallery-item').forEach(item => {
+    item.addEventListener('click', () => {
+      const full = item.getAttribute('data-full');
+      if(full && lightbox && lightboxImg){
+        lightboxImg.src = full;
+        const innerImg = item.querySelector('img');
+        lightboxImg.alt = innerImg ? innerImg.alt : '';
+        lightbox.classList.add('open');
+      }
+    });
+  });
+  if(lightboxClose) lightboxClose.addEventListener('click', () => lightbox.classList.remove('open'));
+  if(lightbox){
+    lightbox.addEventListener('click', (e) => {
+      if(e.target === lightbox) lightbox.classList.remove('open');
+    });
+  }
+  document.addEventListener('keydown', (e) => {
+    if(e.key === 'Escape' && lightbox && lightbox.classList.contains('open')) lightbox.classList.remove('open');
+  });
+
+  // Nav "More" dropdown
+  const navMore = document.getElementById('navMore');
+  if(navMore){
+    const toggle = navMore.querySelector('.nav-dropdown-toggle');
+    toggle.addEventListener('click', (e) => {
+      e.stopPropagation();
+      navMore.classList.toggle('open');
+      toggle.setAttribute('aria-expanded', navMore.classList.contains('open'));
+    });
+    document.addEventListener('click', (e) => {
+      if(!navMore.contains(e.target)) navMore.classList.remove('open');
+    });
   }
 
   applyLang(getStoredLang());

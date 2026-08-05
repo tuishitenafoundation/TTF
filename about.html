@@ -36,6 +36,7 @@
 </script>
 </head>
 <body>
+<a href="#main" class="skip-link" data-i18n="skip_link">Nenda kwenye maudhui makuu</a>
 
 <header>
   <div class="nav">
@@ -48,7 +49,15 @@
       <a href="programs.html" data-i18n="nav_programs">Programu</a>
       <a href="regions.html" data-i18n="nav_regions">Maeneo</a>
       <a href="partners.html" data-i18n="nav_partners">Ushirikiano</a>
-      <a href="governance.html" data-i18n="nav_governance">Uongozi</a>
+      <div class="nav-dropdown" id="navMore">
+        <button class="nav-dropdown-toggle" type="button" aria-expanded="false" data-i18n="nav_more">Zaidi <svg viewBox="0 0 12 8"><path d="M1 1l5 5 5-5"/></svg></button>
+        <div class="nav-dropdown-menu">
+          <a href="governance.html" data-i18n="nav_governance">Uongozi</a>
+          <a href="news.html" data-i18n="nav_news">Habari</a>
+          <a href="gallery.html" data-i18n="nav_gallery">Picha</a>
+          <a href="careers.html" data-i18n="nav_careers">Kazi</a>
+        </div>
+      </div>
       <a href="apply.html" data-i18n="nav_apply">Omba</a>
       <a href="contact.html" data-i18n="nav_contact">Wasiliana Nasi</a>
       <a href="contact.html#donate" class="nav-donate js-donate-trigger" data-i18n="nav_donate">Changia</a>
@@ -69,6 +78,9 @@
     <a href="regions.html" data-i18n="nav_regions">Maeneo</a>
     <a href="partners.html" data-i18n="nav_partners">Ushirikiano</a>
     <a href="governance.html" data-i18n="nav_governance">Uongozi</a>
+    <a href="news.html" data-i18n="nav_news">Habari</a>
+    <a href="gallery.html" data-i18n="nav_gallery">Picha</a>
+    <a href="careers.html" data-i18n="nav_careers">Kazi</a>
     <a href="apply.html" data-i18n="nav_apply">Omba</a>
     <a href="contact.html" data-i18n="nav_contact">Wasiliana Nasi</a>
     <a href="contact.html#donate" class="mobile-donate js-donate-trigger" data-i18n="nav_donate">Changia</a>
@@ -79,6 +91,8 @@
     </div>
   </div>
 </header>
+
+<main id="main">
 
 <section class="page-hero">
   <div class="wrap">
@@ -143,6 +157,8 @@
     </div>
   </div>
 </section>
+
+</main>
 
 <div class="newsletter-bar">
   <div class="wrap newsletter-inner">
@@ -211,6 +227,14 @@
 
       <div class="modal-fallback" data-i18n="modal_fallback">Maswali? Piga <a href="tel:+255746211074">+255 746 211 074</a> au tuma barua pepe <a href="mailto:tuishitenaf@gmail.com">tuishitenaf@gmail.com</a></div>
     </div>
+  </div>
+</div>
+
+<div class="cookie-banner" id="cookieBanner" role="dialog" aria-live="polite" aria-label="Idhini ya Vidakuzi">
+  <p data-i18n="cookie_text">Tovuti hii inatumia vidakuzi (cookies) kuboresha uzoefu wako na kuelewa jinsi wageni wanavyotumia tovuti. Unaweza kukubali au kukataa.</p>
+  <div class="cookie-actions">
+    <button class="cookie-accept" id="cookieAccept" data-i18n="cookie_accept">Kubali</button>
+    <button class="cookie-decline" id="cookieDecline" data-i18n="cookie_decline">Kataa</button>
   </div>
 </div>
 
